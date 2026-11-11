@@ -1,1 +1,71 @@
-
+{
+  "updatedAt": "2026-11-10T00:00:00",
+  "routes": [
+    {
+      "number": "5",
+      "name": "Богоявленская пл. — 15 мкрн",
+      "description": "Через центр"
+    },
+    {
+      "number": "21",
+      "name": "Красная площадь — Ярославль-Главный",
+      "description": ""
+    },
+    {
+      "number": "49",
+      "name": "Улица Свободы — 15 мкрн",
+      "description": ""
+    }
+  ],
+  "stops": [
+    { "name": "Красная площадь" },
+    { "name": "Богоявленская площадь" },
+    { "name": "Улица Свободы" },
+    { "name": "15-й микрорайон" },
+    { "name": "Ярославль-Главный" }
+  ],
+  "trips": [
+    {
+      "routeNumber": "5",
+      "direction": "forward",
+      "dayType": "weekday",
+      "startTime": "06:30",
+      "stops": [
+        { "stopName": "Богоявленская площадь", "time": "06:30", "order": 1 },
+        { "stopName": "Улица Свободы", "time": "06:42", "order": 2 },
+        { "stopName": "15-й микрорайон", "time": "07:05", "order": 3 }
+      ]
+    },
+    {
+      "routeNumber": "5",
+      "direction": "backward",
+      "dayType": "weekday",
+      "startTime": "07:00",
+      "stops": [
+        { "stopName": "15-й микрорайон", "time": "07:00", "order": 1 },
+        { "stopName": "Улица Свободы", "time": "07:20", "order": 2 },
+        { "stopName": "Богоявленская площадь", "time": "07:35", "order": 3 }
+      ]
+    },
+    {
+      "routeNumber": "21",
+      "direction": "forward",
+      "dayType": "weekday",
+      "startTime": "06:45",
+      "stops": [
+        { "stopName": "Красная площадь", "time": "06:45", "order": 1 },
+        { "stopName": "Ярославль-Главный", "time": "07:10", "order": 2 }
+      ]
+    },
+    {
+      "routeNumber": "49",
+      "direction": "forward",
+      "dayType": "weekday",
+      "startTime": "07:15",
+      "stops": [
+        { "stopName": "Улица Свободы", "time": "07:15", "order": 1 },
+        { "stopName": "15-й микрорайон", "time": "07:40", "order": 2 }
+      ]
+    }
+  ]
+}
